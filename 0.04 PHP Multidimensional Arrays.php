@@ -13,4 +13,9 @@
     );
     print_r($games['tabletop']); // returns the tabletop array
     echo ($games['tabletop'][0]); //returns 'sorry'
+
+    // The below adds to a multidimensional array:
+    $cities['london'] = array(
+        8.6, 43, 'England'
+      );
 ?>
